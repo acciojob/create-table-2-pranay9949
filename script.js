@@ -7,10 +7,11 @@ function createTable() {
         let trow=document.createElement("tr");
 		for(let j=0;j<col;j++){
 			let tCol=document.createElement("td");
-			tCol.textContent=`Row-${i} Column${j}`
+			tCol.textContent=`Row-${i} Column-${j}`
 			trow.append(tCol);
 		}
+			table.appendChild(trow);
 	}
-	
+		
   
 }
